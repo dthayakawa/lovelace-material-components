@@ -12,7 +12,7 @@ const languages: any = {
   fr: fr,
   es: es,
   de: de,
-  pt_BR: pt_BR,
+  "pt-BR": pt_BR,
 };
 
 export function localize(string: string, search = "", replace = ""): string {
